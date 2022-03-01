@@ -83,7 +83,8 @@ article img {
 main {
     margin: auto;
     margin-top: 7px;
-    width: 1100px;
+    min-width: 320px;
+    max-width: 1100px;
     font-family: var(--fonte-extra);
     background-color: var(--cor0);
     border-radius: 0px 0px 10px 10px;
