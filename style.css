@@ -127,14 +127,25 @@ article h1 {
 }
 .video {
     position: relative;
-    margin: 0px 0px 0px 19px;
-    padding: 20px;
-    padding-left: 69px;
+    height: 500px;
+}
+.video > iframe {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 .video2 {
     position: relative;
-    margin: -69px 0px 0px 19px;
-    padding-left: 69px;
+    padding-top: 25px;
+}
+.video2 > video {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 footer {
     background-color: var(--cor4);
