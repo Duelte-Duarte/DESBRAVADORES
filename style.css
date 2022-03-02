@@ -72,12 +72,13 @@ nav img{
 .itens {
     display: flex;
     overflow-x: auto;
+    height: 500px;
 }
 #item {
     flex: none;
 }
 article img {
-    width: 100%;
+    width: 90%;
     height: 100%;
 }
 main {
