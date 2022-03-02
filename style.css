@@ -57,12 +57,12 @@ header a:hover {
 nav {
     background-color: var(--cor2);
     box-shadow: 0px 7px 7px black;
+    text-align: center;
 }
 nav img{
-    display: block;
-    margin: auto;
-    width: 800px;
-    height: 400px;
+    display: relative;
+    width: 30%;
+    height: 20%;
 }
 .imagem {
     width: 50vw;
@@ -105,22 +105,28 @@ article h1 {
 }
 .atividade {
     margin-top: 20px;
+
 }
-.atividade a {
+.atividade h2 {
     background-color: var(--cor3);
-    text-decoration: none;
-    margin: 10px;
-    margin-left: 20px;
+    display: relative;
+    width: 50%;
+    margin: auto;
     padding: 10px;
+    border-radius: 10px;
     box-shadow: 2px 2px 7px black;
 }
 .atividade h2 {
     text-align: center;
 }
+.atividade a {
+    text-decoration: none;
+}
 .centro {
     background-image: linear-gradient(72deg, #bf1a0b 1%, #f2b705 99%);
-    width: 500px;
-    padding: 40px;
+    display: relative;
+    width: 60%;
+    height: 80%;
     margin: auto;
     border-radius: 20px;
     box-shadow: 0px 0px 6px black;
