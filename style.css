@@ -133,22 +133,22 @@ section.imagem a:hover {
 }
 section#img01 {
     background-image: url(imagem/imgatividade/reuniao.png);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 section#img02 {
     background-image: url(imagem/imgatividade/especialidade.jpg);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 section#img03 {
     background-image: url(imagem/imgatividade/catre.jpg);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 section#img04 {
     background-image: url(imagem/imgatividade/etapae.jpg);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
 }
 .video {
