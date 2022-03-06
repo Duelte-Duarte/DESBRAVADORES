@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 
 :root {
-    --cor0: rgb(242, 242, 242);
+    --cor0: #f2f2f2;
     --cor1: #bf1a0b;
     --cor2: #f2b705;
     --cor3: #f2cb07;
@@ -17,6 +17,8 @@
     padding: 0px;
 }
 body {
+    width: 100%;
+    min-height: 100vh;
     background-color: var(--cor3);
     margin: auto;
     font-family: var(--fonte-normal);
@@ -37,7 +39,7 @@ label {
 header {
     background-color: #0b0b0d;
     width: 350px;
-    height: 350px;
+    height: 50vh;
     left: -350px;
     position: absolute;
     top: 50px;
@@ -65,78 +67,95 @@ nav img{
     height: 20%;
 }
 .imagem {
-    width: 100%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
 }
 .itens {
     display: flex;
     overflow-x: auto;
-    height: 500px;
+    height: 60vh;
 }
 #item {
     flex: none;
 }
-article img {
+section img {
     width: 90%;
     height: 100%;
 }
 main {
     margin: auto;
     margin-top: 7px;
-    min-width: 320px;
-    max-width: 1100px;
     font-family: var(--fonte-extra);
     background-color: var(--cor0);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 7px black;
 }
-article h1 {
-    font-size: 2em;
+section h1 {
+    font-size: 5vw;
     font-weight: bold;
+    font-variant: small-caps;
     color: var(--cor2);
-    text-shadow: 5px 5px 7px black;
+    text-shadow: 2px 2px 6px black;
+    border-radius: 10px;
     background-image: linear-gradient(to right, var(--cor3), transparent);
     text-indent: 10px;
     margin-left: 20px;
     padding: 10px;
-}
-.atividade h1 {
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-}
-.atividade {
-    margin-top: 20px;
 
 }
-.atividade h2 {
-    background-color: var(--cor3);
-    display: relative;
-    width: 50%;
-    margin: auto;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 7px black;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
 }
-.atividade h2 {
-    text-align: center;
+section.imagem {
+    width: 93%;
+    height: 50vh;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
 }
-.atividade a {
+section.imagem > h2 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.404);
+    text-shadow: 1px 1px 0px black;
+}
+section.imagem a {
     text-decoration: none;
+    color: var(--cor0);
 }
-.centro {
-    background-image: linear-gradient(72deg, #bf1a0b 1%, #f2b705 99%);
-    display: relative;
-    width: 60%;
-    height: 80%;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow: 0px 0px 6px black;
+section.imagem a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+section#img01 {
+    background-image: url(imagem/imgatividade/reuniao.png);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url(imagem/imgatividade/especialidade.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img03 {
+    background-image: url(imagem/imgatividade/catre.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img04 {
+    background-image: url(imagem/imgatividade/etapae.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 .video {
     position: relative;
     height: 500px;
 }
-.video > iframe {
+.video > video {
     position: relative;
     top: 5%;
     left: 5%;
@@ -160,6 +179,7 @@ footer {
     margin: 30px 0px 0px 0px;
     padding: 50px;
     columns: 3;
+    font-size: 2vw;
 }
 footer > h3 {
     padding-bottom: 10px;
