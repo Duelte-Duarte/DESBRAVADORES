@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(242, 242, 242);
+        }
+        .form {
+            margin: auto;
+            width: 350px;
+            padding-top: 40px;
+        }
+        .card {
+            box-shadow: 1px 1px 5px black;
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+        }
+        .card-top {
+            text-align: center;
+        }
+        h2 {
+            color: #bf1a0b;
+            font-size: 2em;
+        }
+        .card-group {
+            margin-bottom: 10px;
+        }
+        .card-group > label {
+            width: 100%;
+            color: #0b0b0d;
+            display: block;
+        }
+        .card-group > input {
+            width: 100%;
+            color: #0b0b0d;
+            border-radius: 5px;
+            height: 25px;
+            padding: 5px;
+        }
+        .card-group > button {
+            background-image: linear-gradient(to right, #f2b705, #f2b70567);
+            color: #bf1a0b;
+            width: 100%;
+            border-radius: 30px;
+            padding: 15px;
+            border: 0px;
+            font-weight: bold;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .btn button:hover {
+            background-image: linear-gradient(to right, #f2b70567, #f2b705);
+        }
+        #cadastro {
+            text-align: right;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form" action="">
+        <div class="card">
+            <div class="card-top">
+                <img src="imagem/android-chrome-192x192.png" alt="">
+                <h2>Gerenciar acesso</h2>
+                <p>Site dos Desbravadores</p>
+            </div>
+            <div class="card-group">
+                <label for="">Login</label>
+                <input type="text" name="Login" placeholder="Digite seu Login" required>
+            </div>
+            <div class="card-group">
+                <label for="">Senha</label>
+                <input type="password" name="Senha" placeholder="Digite sua Senha" required>
+            </div>
+            <div class="card-group">
+                <label> <input type="checkbox"> Lembre-me</label>
+            </div>
+            <div class="card-group" id="cadastro">
+                <label for=""><a href="">Cadastre-se</a></label>
+            </div>
+            <div class="card-group btn">
+                <button type="submit">Acessar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
