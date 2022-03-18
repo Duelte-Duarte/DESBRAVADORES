@@ -155,7 +155,7 @@ section#img04 {
     position: relative;
     height: 500px;
 }
-.video > video {
+.video > iframe {
     position: relative;
     top: 5%;
     left: 5%;
