@@ -66,23 +66,13 @@ nav img{
     width: 30%;
     height: 20%;
 }
-.destaque {
-    width: 100%;
-    margin: auto;
-    margin-top: 20px;
+#item{
+    text-align: center;
+    padding-top: 20px;
 }
-.itens {
-    display: flex;
-    overflow-x: auto;
-    height: 60vh;
-    width: 100%;
-}
-#item {
-    flex: none;
-}
-section img {
+#item > img{
+    height: 60%;
     width: 90%;
-    height: 100%;
 }
 main {
     margin: auto;
@@ -107,7 +97,6 @@ section h1 {
 }
 section {
     padding-top: 10vh;
-    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 3.5vw;
@@ -135,22 +124,37 @@ section.imagem a:hover {
     text-decoration: underline;
 }
 section#img01 {
+    background-image: url(imagem/imgatividade/eliminatorias.jpg);
+    background-position: bottom center;
+    background-size: cover;
+}
+section#img02 {
     background-image: url(imagem/imgatividade/reuniao.png);
     background-position: center center;
     background-size: cover;
 }
-section#img02 {
-    background-image: url(imagem/imgatividade/especialidade.jpg);
-    background-position: center center;
-    background-size: cover;
-}
 section#img03 {
-    background-image: url(imagem/imgatividade/catre.jpg);
+    background-image: url(imagem/imgatividade/livro.jpg);
     background-position: center center;
     background-size: cover;
 }
 section#img04 {
-    background-image: url(imagem/imgatividade/etapae.jpg);
+    background-image: url(imagem/imgatividade/nos.png);
+    background-position: center center;
+    background-size: cover;
+}
+section#img05 {
+    background-image: url(imagem/imgatividade/nos.png);
+    background-position: center center;
+    background-size: cover;
+}
+section#img06 {
+    background-image: url(imagem/imgatividade/lenco.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+section#img07 {
+    background-image: url(imagem/imgatividade/futsal.jpg);
     background-position: center center;
     background-size: cover;
 }
